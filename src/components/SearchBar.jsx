@@ -320,7 +320,7 @@ export default SearchBar;
 const cardData = Array.from({ length: 50 }, (_, i) => ({
   id: i + 1,
   title: `2024 ‘청춘소락’ ${i + 1}`,
-  content: `한양대학교 ERICA 소프트웨어융합대학 학생회 ${i + 1}`,
+  content: `한양대학교 ERICA 소프트웨어융합대학 ${i + 1}`,
   category: i % 2 === 0 ? "대학생 단체" : "기업", // 짝수는 "기업", 홀수는 "학생"
   image: `/src/assets/images/Mainimg/image3.png`, // 1~12번 이미지를 순환
   hashtags: [
